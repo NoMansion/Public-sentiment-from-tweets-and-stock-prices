@@ -8,8 +8,9 @@ from functions import *
 
 
 # create a pandas data frame for the S&P 500 prices
+STOCKS_DATA_FILE = "path_to_stock_csv"
 usecols = ["Date", "Close/Last"]
-sp500_data = pd.read_csv("C:/Users/gsam8/Downloads/HistoricalData_1714358831507.csv", index_col="Date", usecols=usecols)
+sp500_data = pd.read_csv("STOCKS_DATA_FILE", index_col="Date", usecols=usecols)
 english_stops = stopwords.words("english")
 
 stopword_filter = lambda word: word.lower() not in english_stops
