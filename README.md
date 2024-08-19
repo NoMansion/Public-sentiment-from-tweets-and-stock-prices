@@ -5,6 +5,7 @@ Create a program that would analyze tweets for sentimenet values to make predict
 
 ## How it works: ##
 - Reads data from S&P 500 pandas dataframe.
+- Filters tweets to be stored efficiently.
 - Analyzes tweets for a sentiment value.
 - Plots these values in chronological order from the tweets.
 - Plots the S&P 500 values.
