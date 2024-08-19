@@ -1,4 +1,4 @@
-# Using Public Sentiment From Tweets to Predict Stock Prices #
+# Analyzing the Relationship Between Public Sentiment From Tweets and Stock Prices #
 
 ## Goals: ##
 Create a program that would analyze tweets for sentimenet values to make predictions about stock prices. It would also check if general public sentiment is a good indicator of how the market is doing.
